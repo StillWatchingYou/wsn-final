@@ -6,7 +6,7 @@ Trong qua trình học môn WSN, chúng tôi đã tạo ra 1 dự án với mô 
     +1 mạch sạc typeC
     + 1 ổn áp
     + 1 Vi xử lý ESP32
-    + 1 cảm biến nhiệt độ
+    + 1 cảm biến nhiệt độ DS18B20
     + 1 led báo hiệu 
     + và 1 số điện trở
 - 2 node cảm biến này thực hiện truyền dữ liệu tới Broker Node-red bằng giao thức MQTT
