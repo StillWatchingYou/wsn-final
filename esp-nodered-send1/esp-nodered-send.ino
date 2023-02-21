@@ -71,11 +71,9 @@ Serial.begin(9600);
 
    if(temp<nguong1){
     digitalWrite(ledPin, LOW);//tat den
-    mqtt_client.publish("node2/led1","off");
   }
   else {
     digitalWrite(ledPin, HIGH);//bat den
-    mqtt_client.publish("node2/led1","on");//publish data den topic
   }
     
   mqtt_client.loop();
